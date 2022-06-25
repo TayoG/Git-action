@@ -1,4 +1,4 @@
-name:first-yaml
+name:first
 on: push
 jobs: 
     job1:
