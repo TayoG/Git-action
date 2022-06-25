@@ -1,0 +1,19 @@
+name:first-yaml
+on:push
+jobs: 
+    job1:
+         name: Fisrt job
+         run-on: umbutu-latest
+         steps:
+              -name: Step one
+               uses: Action/Checkout@v2
+               -name: Step two
+                run: env | sort  
+       job2:
+           name: Second job
+           run-on: windows-latest
+           steps:
+                -name: Step one
+                 uses: Action/Checkout@v2
+                -name: Step two
+                  run: "Get-ChildItem Env: | Sort-Object Name"
