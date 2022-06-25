@@ -1,5 +1,5 @@
-name:first-yaml
-on: push
+name:first-yaml
+on:push
 jobs: 
     job1:
          name: Fisrt job
