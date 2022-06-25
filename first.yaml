@@ -1,7 +1,7 @@
 name:first-yaml
 on:push
 jobs: 
-    job1:
+    build:
          name: Fisrt job
          run-on: umbutu-latest
          steps:
@@ -9,7 +9,7 @@ jobs:
                uses: Action/Checkout@v2
                -name: Step two
                 run: env | sort  
-       job2:
+       build:
            name: Second job
            run-on: windows-latest
            steps:
