@@ -3,7 +3,7 @@ on: push
 jobs:
     job1:
         name: Fisrt job
-        runs-on: ubumtu-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Step one
               uses: actions/Checkout@v2
