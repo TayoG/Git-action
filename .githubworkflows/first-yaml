@@ -1,6 +1,4 @@
 name:CI1
-
-name:first-yaml
 on:push
 jobs: 
     build:
