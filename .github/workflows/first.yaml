@@ -1,15 +1,16 @@
 name:first
 on:push
-jobs:
-    job1:
-         name: Fisrt job
-         runs-on: umbutu-latest
+jobs;
+
+    job1;
+         name:Fisrt job
+         runs-on:umbutu-latest
          steps:
               -name: Step one
                uses: Action/Checkout@v2
                -name: Step two
                run: env | sort  
-       job2:
+       job2;
            name: Second job
            runs-on: windows-latest
            steps:
