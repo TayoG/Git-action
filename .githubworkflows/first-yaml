@@ -4,8 +4,8 @@ jobs:
   label_issue:
     runs-on: ubuntu-latest
       steps:
-              -name: Step one
-               uses: Action/Checkout@v2
-               -name: Step two
-                run: env | sort  
+           -name: Step one
+            uses: Action/Checkout@v2
+            -name: Step two
+             run: env | sort  
       
