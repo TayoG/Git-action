@@ -1,6 +1,5 @@
 name:CI1
 on:push
-jobs: 
     job1:
          name: Fisrt job
          run-on: umbutu-latest
