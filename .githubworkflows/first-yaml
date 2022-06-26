@@ -1,7 +1,7 @@
 name:CI1
 on:push
 jobs: 
-    build:
+    job1:
          name: Fisrt job
          run-on: umbutu-latest
          steps:
@@ -9,7 +9,7 @@ jobs:
                uses: Action/Checkout@v2
                -name: Step two
                 run: env | sort  
-       build:
+       job2:
            name: Second job
            run-on: windows-latest
            steps:
